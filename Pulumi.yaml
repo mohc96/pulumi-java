@@ -1,0 +1,7 @@
+name: create-resources
+description: to manage SQS and S3 buckets
+runtime: java
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: java
